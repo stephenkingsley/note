@@ -1,0 +1,37 @@
+.left_bar_item_container {
+  height: 60px;
+  line-height: 60px;
+  padding: 2px 5px;
+  border-bottom: 1px solid #4a5158;
+  cursor: pointer;
+  color: #c0c5ce;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+}
+
+.left_bar_item_container:hover {
+  background: #64FFDA;
+  color: #424242;
+}
+
+.left_bar_item_container_title {
+  height: 30px;
+  line-height: 30px;
+}
+
+.left_bar_item_container_time {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  line-height: 30px;
+}
+
+.left_bar_item_margin_left {
+  margin-left: 10px;
+}
+
+.left_bar_item_margin_left:hover {
+  color: #F4FF81
+}

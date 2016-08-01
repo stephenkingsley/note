@@ -1,0 +1,21 @@
+.search_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.search_container_add_btn {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 15px;
+  background: #00bcd4;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.search_container_add_btn:hover {
+  background: #19d6ee;
+}

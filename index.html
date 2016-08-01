@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <link rel="stylesheet" href="src/styles/css/font-awesome.min.css">
+    <style media="screen">
+      body {
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        background: #343d46;
+        color: #c0c5ce;
+      }
+    </style>
+    <title>Note</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="dist/bundle.js"></script>
+    <script>
+     require('electron').ipcRenderer.on('ping', (event, message) => {
+       new Notification(message);
+     })
+ </script>
+  </body>
+</html>
