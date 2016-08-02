@@ -16,7 +16,7 @@
 如果你是想用的话：
 
     git clone
-    cd notes
+    cd note
     npm build
 
 如果你是想修改代码的话:
