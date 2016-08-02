@@ -7,7 +7,7 @@
     "dev": "webpack --watch",
     "start": "electron index.js",
     "browser": "node server.js",
-    "build": "npm run test && cross-env NODE_ENV=production webpack -p && electron-packager . awesome-note --platform=darwin --arch=x64",
+    "build": "npm run test && cross-env NODE_ENV=production webpack -p && npm run build:osx64",
     "build:web": "cross-env NODE_ENV=production webpack -p",
     "build:osx64": "./scripts/build.sh darwin x64",
     "lint": "eslint .",
