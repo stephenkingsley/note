@@ -1,5 +1,5 @@
 # Awesome-Note
-this is the note desktop APP. It is more convenient and beautiful.(chinese markdown see `README_ZH.md`)
+this is the note desktop APP. It is more convenient and beautiful.(chinese markdown see [`README_ZH.md`](https://github.com/stephenkingsley/note/blob/master/README_ZH.md))
 
 <img src="./pic/1.png">
 <br />
