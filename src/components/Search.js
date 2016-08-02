@@ -31,7 +31,7 @@ class Search extends Component {
     return (
       <div className="search_container">
         <TextField
-          hintText="搜索 🔍"
+          hintText=" 🔍"
           inputStyle={inputStyle}
           hintStyle={inputStyle}
           value={text}

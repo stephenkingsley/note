@@ -1,11 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
-const markdown = require('markdown').markdown;
+import Markdown from 'react-markdown';
 
 const MarkdownPreview = (props) => {
   const { content } = props;
   return (
-    <div dangerouslySetInnerHTML={{ __html: markdown.toHTML(content) }}>
+    <div>
+      <Markdown source={content} />
     </div>
   );
 };
